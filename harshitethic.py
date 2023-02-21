@@ -7,7 +7,7 @@ import openai
 #OpenAI API key
 aienv = os.getenv('OPENAI_KEY')
 if aienv == None:
-    openai.api_key = "ENTER YOUR API KEY HERE"
+    openai.api_key = "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"
 else:
     openai.api_key = aienv
 print(aienv)
@@ -101,8 +101,8 @@ def reset(bot, update):
         chat_log = None
         cache = None
         qcache = None
-        botname = 'Harshit Ethic'
-        username = 'harshitethic_bot'
+        botname = 'A33_Chat'
+        username = 'A33_Chat_bot'
         update.message.reply_text('Bot has been reset, send a message!')
         return 
     else:
